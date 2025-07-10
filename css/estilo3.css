@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: bisque;
+    height: 10vh;
+    width: 100vw;
+}
+
+header h2 {
+    padding: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#linha {
+    padding: 40px;
+}
+
+#linha2 {
+    padding: 20px;
+}
+
+#campos {
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 15px;
+}

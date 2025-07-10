@@ -29,7 +29,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: ;
     font-size: 25px;
 }
 
@@ -97,11 +96,18 @@ header {
     padding: 20px;
     line-height: 24px;
     font-size: 20px;
+    color: aliceblue;
 }
 
 #menu1 h2{
     padding: 25px;
     text-align: center;
+}
+
+#menu1 p {
+    padding: 20px;
+    line-height: 24px;
+    font-size: 20px;
 }
 
 /*----------FOTO DA JINX-----------*/
@@ -114,4 +120,16 @@ header {
 #menu4 a{
     display: flex;
     justify-content: center
+}
+
+/*-----------JAYCE-------------*/
+
+#jayce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jayce img {
+    border-radius: 15px;
 }

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292727;
+}
+
+#cabecalho {
+    display: flex;
+}
+
+#menu1, #menu2, #conteudo {
+    border-radius: 10px;
+}
+
+#logo {
+    background-color: green;
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    background-color: limegreen;
+    height: 20vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h1 {
+    font-size: 55px;
+}
+
+#menu1 {
+    background-color: #333;
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu1 h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+}
+
+#menu1 a{
+    text-align: center;
+    color: gold;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+#menu1 p {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+
+#menu2 {
+    background-color: darkolivegreen;
+    height: 8vh;
+    width: 75vw;
+}
+
+#menu2 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu2 a {
+    color:lawngreen ;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#conteudo {
+    background-color: black;
+    height: 72vh;
+    width: 75vw;
+}
+
+#conteudo h2 {
+    color: bisque;
+    font-size:40px;
+    padding: 20px;
+}
+
+#conteudo p {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+#bloco1 {
+    display: flex;
+}
+
